@@ -36,7 +36,7 @@ label{
 
 .categorias{
     display: flex;
-    height: 0vh;
+    height: 33vh;
     overflow: hidden;
     background-color: tomato;
     transition: all 0.4s;
@@ -62,9 +62,7 @@ label{
     flex: 1;
 }
 
-input:checked + .categorias{
-    height: 30vh;
-}
+
 
 .categorias div:nth-child(1) section{
     display: flex;
@@ -91,15 +89,15 @@ input:checked + .categorias{
     width:100%;
     width:130px ;
     padding: 10px;
-    background-color: red;
-    color: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #ff0000;
     text-decoration: none;
     font-weight: bolder;
     border-radius: 10px;
     transition: all 0.3s;
 }
-
-.pcd  a:hover {
-    background-color: #000;
+ a:hover {
+    background-color: #000153;
+    color: #fff;
 }
 

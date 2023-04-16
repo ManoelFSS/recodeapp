@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    background-color: tomato;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+section img {
+    border-radius:50%;
+}
+
+section p {
+    padding: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+   align-items: center;
+    justify-content: center;
+
+}
+
+form a {
+
+    font-weight: bolder;
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+}
+
+
+form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     width: 100%;
+     margin-bottom: 5px;
+     margin-top: 5px;
+   
+}
+form div:nth-child(4) {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+}
+
+
+form div:nth-child(4) a {
+    margin: 0;
+}
+ 
+
+
+
+label{
+    color: tomato;
+    font-size: 26px;
+    font-weight: bolder;
+   position: relative;
+   left: 0;
+}
+form input {
+
+    height: 40px;
+    padding: 10px;
+    width: 300px;
+}
+
+article {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+article a {
+    width:100%;
+    width:130px ;
+    padding: 10px;
+    background-color:tomato;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 10px;
+    transition: all 0.3s;
+    text-align: center;
+}
+article a:hover {
+    background-color: #000153;
+    color: #fff;
+}
+
+label {
+    transform: translate(-118px);
+}
